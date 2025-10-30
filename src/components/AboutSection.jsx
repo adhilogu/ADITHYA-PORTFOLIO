@@ -23,7 +23,7 @@ const AboutSection = () => {
   }, []);
 
   const handleDownloadCV = () => {
-    const cvUrl = '/ADITHYA RESUMEpdf';
+    const cvUrl = '/ADITHYA RESUME.pdf';
     const link = document.createElement('a');
     link.href = cvUrl;
     link.download = 'Adithya_L_CV.pdf';
