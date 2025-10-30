@@ -33,7 +33,7 @@ const AboutSection = () => {
   };
 
   const handleLetsTalk = () => {
-    window.location.href = 'mailto:adithyaloganathan2004@gmail.com';
+    window.location.href = 'mailto:adhilogu2004@gmail.com';
   };
 
   return (
@@ -297,7 +297,7 @@ const AboutSection = () => {
               </a>
 
               <a
-                href="mailto:adithyaloganathan2004@gmail.com"
+                href="mailto:adhilogu2004@gmail.com"
                 className="group w-14 h-14 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl flex items-center justify-center hover:bg-gradient-to-br hover:from-pink-600 hover:to-purple-600 transition-all duration-300 cursor-pointer hover:scale-110 border-2 border-purple-500/30 hover:border-pink-500 shadow-lg hover:shadow-pink-500/50"
               >
                 <Mail className="w-7 h-7 text-gray-400 group-hover:text-white transition-colors" />

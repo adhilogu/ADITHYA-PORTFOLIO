@@ -38,7 +38,7 @@ const ContactSection = () => {
     // Create mailto link with form data
     const subject = encodeURIComponent(`Message from ${formData.name}`);
     const body = encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`);
-    window.location.href = `mailto:adithyaloganathan2004@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:adhilogu2004@gmail.com?subject=${subject}&body=${body}`;
     
     setTimeout(() => {
       setIsSubmitting(false);
@@ -172,10 +172,10 @@ const ContactSection = () => {
                   <div>
                     <h4 className="text-purple-400 font-semibold mb-1">Email</h4>
                     <a 
-                      href="mailto:adithyaloganathan2004@gmail.com"
+                      href="mailto:adhilogu2004@gmail.com"
                       className="text-gray-300 hover:text-white transition-colors break-all"
                     >
-                      adithyaloganathan2004@gmail.com
+                      adhilogu2004@gmail.com
                     </a>
                   </div>
                 </div>
@@ -227,7 +227,7 @@ const ContactSection = () => {
                 </a>
 
                 <a
-                  href="mailto:adithyaloganathan2004@gmail.com"
+                  href="mailto:adhilogu2004@gmail.com"
                   className="group w-14 h-14 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl flex items-center justify-center hover:bg-gradient-to-br hover:from-pink-600 hover:to-purple-600 transition-all duration-300 cursor-pointer hover:scale-110 border-2 border-purple-500/30 hover:border-pink-500 shadow-lg hover:shadow-pink-500/50"
                 >
                   <Mail className="w-6 h-6 text-gray-400 group-hover:text-white transition-colors" />
